@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sama</title>
+    <link rel="icon" type="image/x-icon" href="..//assets/images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.6.0/remixicon.css">
+    <link rel="stylesheet" href="..//assets/css/swap.css">
+    <link rel="stylesheet" href="..//assets/css/boostrap.min.css">
+    <link rel="stylesheet" href="..//assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="..//assets/css/slick.css">
+    <link rel="stylesheet" href="..//assets/css/style.css">
+    <link rel="stylesheet" href="..//assets/css/media_query.css">
+</head>
+
+<body>
+    <!-- ====================================== Preloader ===================================== -->
+    <div class="wrapper">
+        <div id="loader-wrapper">
+            <div id="loader">
+                <svg viewBox="0 0 1320 300">
+                    <text x="50%" y="50%" dy=".35em" text-anchor="middle">Sama </text>
+                </svg>
+            </div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+        </div>
+    </div>
+    <!-- ====================================== Preloader End ===================================== -->
+    <!-- ====================================== Background Animation ===================================== -->
+    <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <!-- ====================================== Background Animation End ===================================== -->
+    <!-- ====================================== Cursor ===================================== -->
+    <div class="cursor"></div>
+    <!-- ====================================== Cursor End ===================================== -->
+    <!-- ====================================== Dark Light Mode ===================================== -->
+  
+    <!-- ====================================== Dark Light Mode End===================================== -->
+    <header>
+        <!-- ====================================== Fix Icon Menu ===================================== -->
+        <div class="sidebar close">
+            <ul class="nav-links icetab-container" id="icetab-container">
+                <li class="icetab current-tab">
+                    <a class="nav_menu_icon_line" href="javascript:void(0)">
+                        <img class="nav_menu_icon" src="../assets/images/home_icon.svg" alt="home icon">
+                    </a>
+                    <ul class="sub-menu blank">
+                        <li class=""><a class="link_name" href="javascript:void(0)">Home</a></li>
+                    </ul>
+                </li>
+                <li class="icetab menu-btn">
+                    <a class="nav_menu_icon_line" href="javascript:void(0)">
+                        <img class="nav_menu_icon" src="../assets/images/about_icon.svg" alt="about icon">
+                    </a>
+                    <ul class="sub-menu">
+                        <li><a class="link_name" href="javascript:void(0)">About Me</a></li>
+                    </ul>
+                </li>
+                <li class="icetab">
+                    <a class="nav_menu_icon_line" href="javascript:void(0)">
+                        <img class="nav_menu_icon" src="../assets/images/resume_icon.svg" alt="resume icon">
+                    </a>
+                    <ul class="sub-menu">
+                        <li><a class="link_name" href="javascript:void(0)">Resume</a></li>
+                    </ul>
+                </li>
+                <li class="icetab">
+                    <a class="nav_menu_icon_line" href="javascript:void(0)">
+                        <img class="nav_menu_icon" src="../assets/images/skills_icon.svg" alt="skills icon">
+                    </a>
+                    <ul class="sub-menu blank">
+                        <li><a class="link_name" href="javascript:void(0)">Courses Taught</a></li>
+                    </ul>
+                </li>
+                <li class="icetab">
+                    <a class="" href="javascript:void(0)">
+                        <img class="nav_menu_icon" src="../assets/images/contact_icon.svg" alt="contact icon">
+                    </a>
+                    <ul class="sub-menu blank">
+                        <li><a class="link_name" href="javascript:void(0)">Contact</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- ====================================== Fix Icon Menu End ===================================== -->
+        <!-- ======================================= Side Menu ================================== -->
+        <div class="toggle" onclick="openNav()">
+            <img class="line-menu" src="../assets/images/line-menu.png" alt="line-menu">
+        </div>
+        <div id="mySidenav" class="sidenav">
+            <div class="closebtn" onclick="closeNav()">&times;</div>
+            <img class="logo" src="../assets/images/logo.png" alt="logo">
+            <ul class="sidescreen_sub icetab-container" id="icetab-container2">
+                <li class="icetab current-tab" onclick="openNav()">
+                    <a class="icons2" href="javascript:void(0)">
+                        <img class="nav_menu_icon sidenav_img" src="../assets/images/home_icon.svg" alt="home_icon">Home
+                    </a>
+                </li>
+                <li class="icetab" onclick="openNav()">
+                    <a class="icons2" href="javascript:void(0)">
+                        <img class="nav_menu_icon sidenav_img" src="../assets/images/about_icon.svg" alt="about_icon">About Me
+                    </a>
+                </li>
+                <li class="icetab" onclick="openNav()">
+                    <a class="icons2" href="javascript:void(0)">
+                        <img class="nav_menu_icon sidenav_img" src="../assets/images/resume_icon.svg" alt="resume_icon">Resume
+                    </a>
+                </li>
+                <li class="icetab" onclick="openNav()">
+                    <a class="icons2" href="javascript:void(0)">
+                        <img class="nav_menu_icon sidenav_img" src="../assets/images/skills_icon.svg" alt="skills_icon">Courses Taught
+                    </a>
+                </li>
+                <li class="icetab" onclick="openNav()">
+                    <a class="icons2" href="javascript:void(0)">
+                        <img class="nav_menu_icon sidenav_img" src="../assets/images/contact_icon.svg" alt="contact_icon">Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- ======================================= Side Menu End ================================== -->
+    </header>
+    <div class="all_page" id="page">
+        <section class="card_section" id="card_main">
+            <div class="olivia_bio" id="oliva_details">
+                <div class="imgBox">
+                    <img class="olivia-img" src="../assets/images/sama.jpg" alt="sama-img">
+                </div>
+                <div class="bio_contain">
+                    <h1 class="olivia_moswa">Sama Gheitarani</h1>
+                    <h2 class="designer font_w_font_s1 overflow-hidden"></h2>
+                    <button class="download_cv hire_me font_w_font_s">
+                        Teaching 350+ people
+                    </button>
+                </div>
+            </div>
+            <div class="right_card_main icetab-content" id="icetab-content">
+
+                <!-- ======================================= Home Section ================================== -->
+                <section class="oliva-intro tabcontent tab-active" id="home">
+                    <div class="intro_main">
+                        <h2 class="intro font_w_font_s fade_up">Introduction</h2>
+                    </div>
+
+                    <h2 class="moswa font_w_font_s fade_up">Hello, I'm Sama Gheyrani, Language Instructor and
+                        Translator
+                    </h2>
+
+                    <h3 class="passionate font_w_font_s1 fade_up">As a seasoned English language educator and
+                        accomplished translator, I have honed my skills over more than four years in the field. My
+                        expertise lies in the nuanced translation of blockchain initiatives and interactive
+                        entertainment software. My overarching objective is to serve as a conduit between diverse
+                        cultures and linguistic landscapes. By amalgamating my specialized knowledge, innovative
+                        approach, and exemplary communication prowess, I am poised to make a significant impact in both
+                        educational and translation endeavors</h3>
+
+                    <div class="button_circle_group">
+                        <div style="opacity: 0;">
+                            .
+                        </div>
+
+                        <div class="circular_text_main">
+                            <a href="javascript:void(0)" class="down_arrow_main position-relative">
+                                <img src="../assets/images/circular_text.png" class="circular_text" alt="circular_text">
+                                <img src="../assets/images/down_arrow.svg" class="down_arrow" alt="down_arrow">
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <!-- ======================================= About Section ================================== -->
+                <section class="oliva-intro tabcontent" id="about">
+                    <div class="intro_main">
+                        <h2 class="intro font_w_font_s fade_up">About Me</h2>
+                    </div>
+
+                    <h2 class="Gheitarani font_w_font_s fade_up">Blending Language Education and Professional
+                        Translation</h2>
+
+                    <h3 class="passionate font_w_font_s1 fade_up">Thank you for providing more detailed information.
+                        I'll revise this paragraph while maintaining the numbers and aligning it with high-quality
+                        English standards suitable for IELTS. Here's the refined version:
+                        At 24 years of age, I bring a unique blend of architectural background and linguistic prowess to
+                        my professional endeavors. Boasting an impressive IELTS score of 7.5, I am trilingual, with
+                        fluency in English, German, and Persian. My career trajectory has seamlessly transitioned into
+                        the realms of language instruction and specialized translation. Over the course of 4 years, I
+                        have distinguished myself as an English educator at prestigious institutions, including Talieh
+                        Institute and Iran Europe Language Institute. Concurrently, I have contributed my expertise to
+                        niche translation projects, with a particular focus on blockchain technology and interactive
+                        entertainment software. My teaching portfolio encompasses over 35 terms, each comprising an
+                        average of 10 students, spanning a diverse age range from 8 to 30 years. Furthermore, my
+                        involvement in orchestrating international conferences and educational symposia has
+                        significantly enhanced my capacity to facilitate effective cross-cultural dialogue and
+                        understanding.</h3>
+
+                    <div class="about_counter fade_up">
+                        <div class="counter">
+                            <h3 class="counter2 count font_w_font_s" count="4">4+</h3>
+                            <h3 class="experince font_w_font_s1">Years of Teaching Experience</h3>
+                        </div>
+
+                        <div class="counter">
+                            <h3 class="counter2 count font_w_font_s" count="350">350+</h3>
+                            <h3 class="experince">Students Across Various Courses</h3>
+                        </div>
+                    </div>
+                </section>
+                <!-- ======================================= Resume Section ================================== -->
+                <section class="oliva-intro tabcontent" id="resume">
+                    <div class="intro_main">
+                        <h2 class="intro font_w_font_s fade_up">Resume</h2>
+                    </div>
+
+                    <h2 class="Gheitarani font_w_font_s fade_up">Education</h2>
+
+                    <h3 class="passionate font_w_font_s1 fade_up">A strong foundation in architecture, combined with
+                        advanced language skills, has been the cornerstone of my success in teaching and translation.
+                    </h3>
+
+                    <div class="education position-relative education_space">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+
+                        <div class="small_yellow_border_main fade_up">
+                            <div class="envato_group_main">
+                                <div>
+                                    <h3 class="bachelor font_w_font_s1">English Language Instructor</h3>
+                                    <h4 class="company font_w_font_s1">Talieh Institute & Iran Europe Language Institute
+                                        / 2020 - Present</h4>
+                                </div>
+                            </div>
+                            <h5 class="cursus font_w_font_s1">Teaching various English courses, hosting Free Discussion
+                                events, and managing classes with an average of 10 students. Successfully attracted and
+                                retained over 350 students across different age groups (8-30 years old).</h5>
+                        </div>
+                    </div>
+
+                    <div class="education position-relative education_space">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+
+                        <div class="small_yellow_border_main fade_up">
+                            <div class="envato_group_main">
+                                <div>
+                                    <h3 class="bachelor font_w_font_s1">Translator for Video Games and Blockchain
+                                        Projects</h3>
+                                    <h4 class="company font_w_font_s1">Freelancer & FarsiSaz Team Member / 2022 -
+                                        Present</h4>
+                                </div>
+                            </div>
+                            <h5 class="cursus font_w_font_s1">Simultaneous and specialized translation for blockchain
+                                projects such as MetaReal, Pepoleon, Solana Churro, and Citex. Member of the FarsiSaz
+                                game translation team, contributing to localization of various video games.</h5>
+                        </div>
+                    </div>
+                    <h2 class="Gheitarani experience_main_text font_w_font_s fade_up">Work Experience</h2>
+
+                    <h3 class="passionate font_w_font_s1 fade_up">A combination of diverse experiences in language
+                        teaching, specialized translation, and organizing international events.</h3>
+
+                    <div class="education position-relative education_space">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+
+                        <div class="small_yellow_border_main fade_up">
+                            <div class="envato_group_main">
+                                <div>
+                                    <h3 class="bachelor font_w_font_s1">English Language Instructor</h3>
+                                    <h4 class="company font_w_font_s1">Talieh Institute / 2020 - Present</h4>
+                                </div>
+                            </div>
+                            <h5 class="cursus font_w_font_s1">Teaching various English courses, hosting Free Discussion
+                                events, and managing classes with an average of 10 students</h5>
+                        </div>
+                    </div>
+
+                    <div class="education position-relative education_space">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+
+                        <div class="small_yellow_border_main fade_up">
+                            <div class="envato_group_main">
+                                <div>
+                                    <h3 class="bachelor font_w_font_s1">Blockchain Project Translator</h3>
+                                    <h4 class="company font_w_font_s1">Freelancer / 2022 - Present</h4>
+                                </div>
+                            </div>
+                            <h5 class="cursus font_w_font_s1">Simultaneous and specialized translation for blockchain
+                                projects such as MetaReal, Pepoleon, Solana Churro, and Citex</h5>
+                        </div>
+                    </div>
+
+                    <div class="education position-relative">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+
+                        <div class="small_yellow_border_main fade_up">
+                            <div class="envato_group_main">
+                                <div>
+                                    <h3 class="bachelor font_w_font_s1">International Conference Host</h3>
+                                    <h4 class="company font_w_font_s1">Soode High School, Germany / 2021 - 2022</h4>
+                                </div>
+                            </div>
+                            <h5 class="cursus font_w_font_s1">Organizing and managing international conferences,
+                                facilitating cross-cultural communications</h5>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ======================================= SKILLS ================================== -->
+                <section class="oliva-intro tabcontent" id="skills">
+                    <div class="intro_main">
+                        <h2 class="intro font_w_font_s fade_up">Courses Taught</h2>
+                    </div>
+
+                    <h2 class="Gheitarani font_w_font_s fade_up">Books and Training Courses</h2>
+
+                    <h3 class="passionate font_w_font_s1 fade_up">List of books and courses I have taught:</h3>
+
+                    <ul class="skills-list fade_up " style="margin-top: -36px;">
+                        <li>First Friends</li>
+                        <li>Family and Friends (levels 1 to 6)</li>
+                        <li>American English File (levels 1 to 4)</li>
+                        <li>Prepare 1</li>
+                        <li>Evolve (levels 1 and 2)</li>
+                        <li>Speak Now (conversation courses)</li>
+                    </ul>
+
+                    <h2 class="passionate font_w_font_s fade_up" style="margin-top:36px;">Special Educational
+                        Activities:</h2>
+
+                    <ul class="skills-list fade_up " style="margin-top:-36px;">
+                        <li>Organizer of weekly Free Discussion events (for the past year)</li>
+                        <li>Private English language tutor (over 40 students)</li>
+                        <li>Host of international conferences at Soode High School, Germany</li>
+                    </ul>
+
+                    <div class="intro_main" style="margin-top:36px">
+                        <h2 class="intro font_w_font_s fade_up" style="margin-top: 36px;">Skills and Achievements</h2>
+                    </div>
+                    <h2 class="Gheitarani font_w_font_s fade_up">Professional Competencies and Accomplishments</h2>
+                    <h3 class="passionate font_w_font_s1 fade_up">Key Skills:</h3>
+                    <ul class="skills-list fade_up" style="margin-top:-36px;">
+                        <li>Strong communication skills across diverse age groups and cultures</li>
+                        <li>Creative course design and implementation</li>
+                        <li>Adaptability to varied student needs and learning styles</li>
+                        <li>Expertise in simultaneous translation and specialized fields like blockchain and gaming</li>
+                        <li>Event organization and management for international conferences</li>
+                    </ul>
+
+                    <h3 class="passionate font_w_font_s1 fade_up" style="margin-top:36px;">Notable Achievements:</h3>
+
+                    <ul class="skills-list fade_up" style="margin-top:-36px;">
+                        <li>Successfully conducted over 50 Free Discussion sessions to enhance students' conversational
+                            skills</li>
+                        <li>Participated in international game localization projects as part of the FarsiSaz team</li>
+                        <li>Bridged cultures through hosting international conferences in Germany</li>
+                        <li>Maintained a high student retention rate across various courses and institutions</li>
+                    </ul>
+
+
+                </section>
+                <!-- ======================================= Contact us Section End ================================== -->
+                <section class="oliva-intro tabcontent" id="contact" style="display: grid; grid-template-columns: 1fr; gap: 20px;">
+                    <div class="contact-info" style="flex: 1; padding: 20px;">
+                        <h3 style="color: #888; font-size: 14px; margin-bottom: 20px;">CONTACT ME</h3>
+                        
+                        <h2 style="font-size: 28px; margin-bottom: 20px;">Let's Collaborate!</h2>
+                        
+                        <h3 style="font-size: 18px; margin-bottom: 20px;">Contact Information</h3>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <img src="https://logo.clearbit.com/whatsapp.com" alt="Phone" style="margin-right: 10px; width: 20px; height: 20px;">
+                            <span>+98 996 092 0058</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <img src="https://logo.clearbit.com/instagram.com" alt="Instagram" style="margin-right: 10px; width: 20px; height: 20px;">
+                            <span>@samaght_english</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <img src="https://logo.clearbit.com/telegram.org" alt="Telegram" style="margin-right: 10px; width: 20px; height: 20px;">
+                            <span>@samaght</span>
+                        </div>
+                        
+                        <div style="margin-bottom: 15px;">
+                            <img src="https://logo.clearbit.com/telegram.org" alt="Telegram" style="margin-right: 10px; width: 20px; height: 20px;">
+                            <span>@samaght_english</span>
+                        </div>
+                        
+                        <p style="color: #888; font-size: 12px; margin-top: 30px;">© Sama Gheyrani 2024. All rights reserved.</p>
+                    </div>
+                    <h5 class="copyright" style="grid-row: 4;">© Sama Gheyrani 2024. All rights reserved.</h5>
+                </section>
+            </div>
+        </section>
+  
+
+        <script src="../assets/javascript/jquery.min.js"></script>
+        <script src="../assets/javascript/magnific-popup.min.js"></script>
+        <script src="../assets/javascript/progresscircle.js"></script>
+        <script src="../assets/javascript/cursor.js"></script>
+        <script src="../assets/javascript/bootstrap.bundle.min.js"></script>
+        <script src="../assets/javascript/slick.min.js"></script>
+        <script src="../assets/javascript/script.js"></script>
+</body>
+
+</html>

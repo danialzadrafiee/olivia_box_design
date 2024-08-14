@@ -79,8 +79,8 @@ const homeNavabr = document.getElementById("home");
 const circular_imgClick = document.getElementsByClassName("circular_text_main");
 
 circular_imgClick[0].addEventListener("click", () => {
-    homeNavabr.classList.remove("tab-active");
-    elements.classList.add("tab-active");
+    // homeNavabr.classList.remove("tab-active");
+    // elements.classList.add("tab-active");
 });
 
 // Dark/ Light Mode Toggle
